@@ -1,0 +1,36 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Diretório de dependências
+node_modules/
+
+# Diretório de dependências para pacotes gerenciados globalmente pelo npm
+.pnpm/
+
+# Cache do npm e yarn
+.npm
+.yarn
+
+# Arquivos de lock
+package-lock.json
+yarn.lock
+
+# Diretório de saída da build
+dist/
+build/
+
+# Ambiente de teste
+.env
+.env.*.local
+
+# Editor de código
+.vscode/
+.idea/
+
+# Outros arquivos
+.DS_Store
+*.pem
